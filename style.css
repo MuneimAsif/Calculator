@@ -1,95 +1,40 @@
-.container{
+body{
     display: flex;
     justify-content: center;
-    
+    align-items: center;
 }
-.calculator{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-width: 280px;
-height: 350px;
+.shapeChange{
+    background-color: rgb(215, 233, 122);
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(152, 26, 34, 0.461);
+}
+.rectangle{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(220, 249, 74);
+}
+.triangle{
+    width: 0;
+	height: 0;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom:  125px solid rgb(0, 73, 128);
+}
+.btn{
+    margin: 10px;
+padding: 10px;
+font-size: 15px;
+color: rgb(4, 105, 105);
+background-color: lightcyan ;
 border: none;
 border-radius: 5px;
--moz-box-shadow: 5px 5px 5px #777777;
--webkit-box-shadow: 5px 5px 5px #777777;
-box-shadow: 5px 5px 5px #777777;
-background-color: black;
+width: 150px;
+height: 80px;
 }
-#display{
-    margin-top: 10px;
-    border-radius: 5px;
-width: 250px;
- height: 50px;
- text-align: right;
- font-size: 1.2em;
-color: white;    
-}
-.btnDisplay{
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-}
-.cstmBtn{
-width: 25px;
-height: 25px;
-padding: 10px;
-font-size: 1.5em;
-margin: 10px;
-border-radius: 5px;
-background-color: black;
-color: white;
-
-}
-@media (max-width: 276px){
-    #display{
-        width: 230px;
-    }
-.cstmBtn{
-    width: 20px;
-    height: 20px;
-}
-
-}
-@media (max-width: 260px){
-    #display{
-        width: 210px;
-    }
-.cstmBtn{
-    width: 15px;
-    height: 15px;
-}
-
-}
-
-@media (max-width: 235px){
-    #display{
-        width: 180px;
-    }
-.cstmBtn{
-    width: 11px;
-    height: 11px;
-}
-
-}
-@media (max-width: 219px){
-    #display{
-        width: 175px;
-    }
-.cstmBtn{
-    width: 8px;
-    height: 8px;
-}
-
-}
-@media (max-width: 182px){
-    #display{
-        width: 150px;
-    }
-.cstmBtn{
-    width: 8px;
-    height: 8px;
-}
-
-}
-
